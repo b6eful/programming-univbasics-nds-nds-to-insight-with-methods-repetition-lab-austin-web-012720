@@ -39,7 +39,7 @@ def total_gross(source)
   index = 0
   total = 0
   while index < source.size do
-    total += total[director]
+    total += directors_totals(source)[list_of_directors(source)[index]]
     index += 1
   end
   return total
