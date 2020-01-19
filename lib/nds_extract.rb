@@ -44,7 +44,7 @@ def total_gross(source)
     total += totals[director]
     index += 1
   end
-  total
+  return total
 end
 
 
