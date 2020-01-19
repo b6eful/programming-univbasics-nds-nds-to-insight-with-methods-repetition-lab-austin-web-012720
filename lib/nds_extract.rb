@@ -39,7 +39,7 @@ end
 def total_gross(source)
   index = 0
   total = 0
-  while index < director_name.size do
+  while index < source.size do
     director = director_names[index]
     total += total[director]
     index += 1
